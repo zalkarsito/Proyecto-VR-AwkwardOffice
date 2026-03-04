@@ -4,6 +4,6 @@ public class ButtonPress : MonoBehaviour
 {
     public void OnButtonDown()
     {
-    SceneLoader.instance.LoadScene("GameScene");
+    SceneLoader.instance.LoadScene("VR_AwkWard");
     }
 }
