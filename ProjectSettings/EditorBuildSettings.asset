@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/InicioVRAwkOff.unity
-    guid: 9f67eb8dc9a82c14fad2a463d99ba796
-  - enabled: 1
     path: Assets/Scenes/VR_AwkWard.unity
     guid: b256f8f724bf1ff4991ba20a8fda41fc
   m_configObjects:
