@@ -8,7 +8,7 @@ public class TrashCollector : MonoBehaviour
     public GameObject confettipos;
     public GameObject confettiPrefab;
     private GameObject confetti;
-
+    public AudioSource audioPoint;
     public ParticleSystem ps;
 
     private void Start()
@@ -29,21 +29,7 @@ public class TrashCollector : MonoBehaviour
 
             ps.Play();
             StartCoroutine(Espera());
-            /*if (confetti == null)
-            {
-                confetti = Instantiate(confettiPrefab, confettipos.transform.position, confettipos.transform.rotation);
-                confetti.transform.localScale = Vector3.one;
-                confetti.SetActive(true);
-                StartCoroutine(Espera());
-                
-            }
-
-            else
-            {
-                confetti.SetActive(true);
-                StartCoroutine(Espera());
-                
-            }*/
+            audioPoint.Play();
             
 
         }

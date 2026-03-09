@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI finalTime;
     public TextMeshProUGUI finalScore;
     private bool stopTimer = false;
+    public AudioSource audioWin;
     void Start()
     {
         _trash = new List<GameObject>(GameObject.FindGameObjectsWithTag("Trash"));
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
             ResetPanel.SetActive(true);
             finalTime.text = "Time " + timer;
             finalScore.text = "Score " + _score;
+            audioWin.Play();
         }
     }
     public void TargetHit(GameObject go)
