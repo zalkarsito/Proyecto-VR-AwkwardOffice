@@ -716,7 +716,7 @@ MonoBehaviour:
   layerTextureFormat: 0
   currentOverlayShape: 0
   textures:
-  - {fileID: 2800000, guid: 15ee263084462fd41b9bbbb4a324e606, type: 3}
+  - {fileID: 2800000, guid: ae65c4ff1037bed48a5f7e009b926ace, type: 3}
   - {fileID: 0}
   isAlphaPremultiplied: 0
   useBicubicFiltering: 0
